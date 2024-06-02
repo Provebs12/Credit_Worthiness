@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+.justify{
+  justify-content: center;
+}
+.align {
+  align-items: center;
+}
+body{
+  background-image: url('./image/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); 
+  /* height: auto; */
+}
+.heading{
+  color: rgb(209, 209, 226);
+  margin-bottom: 16px;
+}
+form{
+  border: 2px solid rgb(180, 178, 178);
+  padding: 10px 15px 15px;
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.lab1{
+  padding: 10px 0 10px 0;
+  color: white;
+  font-size: 22px;
+  text-shadow: 12px 12px 12px black;
+}
+.mb{
+  margin-bottom: 8px;  
+}
+.decor{
+  text-shadow: 1px 1px 2px rgba(49, 147, 238, 0.541);
+}
+.br{
+  border-radius: 2px;
+  border: none;
+  padding: 4px;
+  background-color: whitesmoke;
+}
+.btn{
+  background-color: bisque;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 12px gray;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(255, 247, 222);
+}
+.display{
+  font-size: 30px;
+  color: #ffffff;
+  /* background-color: black; */
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 8px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  body{
+    height: auto;
+  }
+  form {
+    width: max-content;
+  }
+  .heading{
+    padding: 8px 0 0 12px;
+  }
+  label{
+    display: block;
+  }
+}
