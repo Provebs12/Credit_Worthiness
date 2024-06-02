@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Credit Worthiness Checker</title>
+</head>
+<body class="flex justify align mt">
+  <img src="./image/" alt=""> <br>
+  <h1 class="heading">Credit Worthiness Checker</h1>
+  <form id="loanForm">
+    <label class="lab1 decor" for="currentBalance">Current Account Balance</label> <br>
+    <input class="mb br" id="currentBalance" type="text" placeholder="&#8358;"> <br>
+
+    <label class="lab1 decor" for="loanAmount">Required Loan Amount</label> <br>
+    <input class="mb br" id="loanAmount" type="text" placeholder="&#8358;"> <br>
+
+    <label class="lab1 decor" for="creditHistory">Credit History (In months)</label> <br>
+    <select class="mb br" id="creditHistory">
+      <option>Choose range</option>
+      <option value="0">0 months</option>
+      <option value="1">1 month</option>
+      <option value="2">2 months</option>
+      <option value="3">3 months</option>
+      <option value="4">4 months</option>
+      <option value="5">5 months</option>
+      <option value="6">6 months</option>
+      <option value="7">7 months</option>
+      <option value="8">8 months</option>
+      <option value="9">9 months</option>
+      <option value="10">10 months</option>
+      <option value="11">11 months</option>
+      <option value="12">12 months</option>
+    </select> <br>
+
+    <label class="lab1 decor" for="lastDepositDate">Last Deposit Date:</label><br>
+    <input class="mb br" id="lastDepositDate" type="date"> <br>
+
+    <label class="lab1 decor" for="lastLoanDate">Last Loan Collection Date:</label> <br>
+    <input class="mb br" id="lastLoanDate" type="date"> <br>
+
+    <label class="lab1 decor" for="loanStartDate">Loan Repayment (Start):</label> <br>
+    <input class="mb br" id="loanStartDate" type="date"> <br>
+
+    <label class="lab1 decor" for="loanEndDate">Loan Repayment (End):</label> <br>
+    <input class="mb br" id="loanEndDate" type="date"> <br>
+
+    <label class="lab1 decor" for="accountType">Type of Account:</label> <br>
+    <select class="mb br" id="accountType">
+      <option>Select</option>
+      <option value="current">Current</option>
+      <option value="savings">Savings</option>
+    </select> <br>
+
+   <div class="flex align">
+    <button class="btn br" type="button" onclick="checkCreditWorthiness()">Check Credit Worthiness</button>
+   </div>
+  </form>
+
+  <p class="display" id="result"></p>
+  
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
