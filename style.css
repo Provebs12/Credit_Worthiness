@@ -14,7 +14,7 @@
   align-items: center;
 }
 body{
-  background-image: url('/images/desert.jpg'); 
+  background-image: url('./images/desert.jpg'); 
   /* height: auto; */
 }
 .heading{
