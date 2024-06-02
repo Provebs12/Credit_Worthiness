@@ -14,17 +14,17 @@
   align-items: center;
 }
 body{
-  background-image: url('./image/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); 
+  background-image: url('/images/desert.jpg'); 
   /* height: auto; */
 }
 .heading{
-  color: rgb(209, 209, 226);
+  color: rgba(0, 0, 0, 0.658);
   margin-bottom: 16px;
 }
 form{
   border: 2px solid rgb(180, 178, 178);
   padding: 10px 15px 15px;
-  background-color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(0, 0, 0, 0.425);
 }
 .lab1{
   padding: 10px 0 10px 0;
